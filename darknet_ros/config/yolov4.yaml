@@ -1,0 +1,11 @@
+yolo_model:
+
+  config_file:
+    name: yolov4-voc-gift-case.cfg
+  weight_file:
+    name: yolov4-voc-gift-case_last.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names:
+      - gift case
